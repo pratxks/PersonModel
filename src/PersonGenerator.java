@@ -64,7 +64,7 @@ public class PersonGenerator
         // (may need to adjust for other IDE)
         // Not sure if the toolkit is thread safe...
         File workingDirectory = new File(System.getProperty("user.dir"));
-        Path file = Paths.get(workingDirectory.getPath() + "\\src\\PersonTestData.txt");
+        Path file = Paths.get(workingDirectory.getPath() + "/src/PersonTestData.txt");
 
         System.out.println(file);
 
