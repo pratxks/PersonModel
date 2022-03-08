@@ -98,8 +98,8 @@ public class PersonReader
 
                 if(i == 0)
                 {
-                    strRecField = String.format("%8s", strRecField).replace(' ', '0');
-                    strRecField += String.format("%2s", " ");
+                    strRecField = String.format("%6s", strRecField).replace(' ', '0');
+                    strRecField += String.format("%4s", " ");
                 }
                 if((i > 0) && (i < 3))
                 {
